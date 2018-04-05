@@ -93,7 +93,7 @@ public class HorizontalCalendarView extends RecyclerView {
     @Override
     protected void onMeasure(int widthSpec, int heightSpec) {
         if (isInEditMode()) {
-            setMeasuredDimension(widthSpec, 150);
+            setMeasuredDimension(widthSpec, 100);
         } else {
             super.onMeasure(widthSpec, heightSpec);
         }
